@@ -9,18 +9,14 @@ board = " ", " ", " ", " ", " ", " ", " ", " ", " "
  #puts ["  ", " ", " ", " ", " ", " ", " ", " ", " "]
 #end
 puts "Where would you like to go?"
-position_input = gets.strip
-index = input_to_index(position_input)
-
+position = gets.strip
+index = input_to_index(position)
+move (index)
 #input_to_index =
 #puts position_input
 #input_to_index =
 
-#puts "You enterd #{position_input}"
-
-
 #board(input)
-
 
 #position_input = gets.strip
 #board = gets.strip
