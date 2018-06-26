@@ -12,19 +12,4 @@ puts "Where would you like to go?"
 position = gets.strip
 index = input_to_index(position)
 move (index)
-#input_to_index =
-#puts position_input
-#input_to_index =
 
-#board(input)
-
-#position_input = gets.strip
-#board = gets.strip
-#board
-
-
-#def user_input (input_to_index)
-
-#puts user_input
-#puts move
-#puts display_board
